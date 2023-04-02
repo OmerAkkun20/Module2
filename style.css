@@ -1,0 +1,96 @@
+body {
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  h1 {
+    padding: 30px;
+    color: red;
+    text-align: center;
+  }
+  
+  h2{
+    text-align: end;
+  }
+  
+  .menu1,
+  .menu2,
+  .menu3 {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    background-color: rosybrown;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    border: black solid;
+   
+  }
+  
+  .menu1 h2,
+  .menu2 h2,
+  .menu3 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+   
+    color: slateblue;
+  }
+  
+  .menu1 p,
+  .menu2 p,
+  .menu3 p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .menu1, .menu2, .menu3 {
+      width: calc(33.33% - 1rem);
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      background-color: rosybrown;
+      padding: 1rem;
+      float: left;
+      box-sizing: border-box;
+      text-align: center;
+      border: black solid;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .menu1, .menu2{
+      width: 50%;
+      float: left;
+      
+      
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .menu1,
+    .menu2,
+    .menu3 {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 1rem;
+      background-color: rosybrown;
+      padding: 1rem;
+      box-sizing: border-box;
+      text-align: center;
+      border: black solid;
+    }
+  }
